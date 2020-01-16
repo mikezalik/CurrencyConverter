@@ -19,7 +19,7 @@ public void convertCurrency (View view){
     double amountInDollarsDouble = amountInPesosDouble * 0.053;
     String convertAmount = format("%.2f", amountInDollarsDouble);
 
-    Toast.makeText(this, "$" + amountInPesos + convertAmount + "USD", Toast.LENGTH_LONG).show();
+    Toast.makeText(this, "$" + amountInPesos + " is " + convertAmount + "USD", Toast.LENGTH_LONG).show();
 
     Log.i ("This works!","This also works!");
 
